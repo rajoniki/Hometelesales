@@ -117,3 +117,20 @@ footer {
     height: 20px;
   }
 }
+/* Ikonok méretének beállítása */
+.fas {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Ikonok kisebbek lesznek mobilon */
+    .fas {
+        font-size: 20px;
+    }
+}
+
+/* Képek reszponzív beállítása */
+img {
+    max-width: 100%;
+    height: auto;
+}
